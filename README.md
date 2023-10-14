@@ -29,3 +29,16 @@ c. The address of var1 using &var1.
 d. The value of the pointer ptr.
 e. The address of the pointer ptr using &ptr.
 6. End
+
+C) Array Pointer-
+
+1. Start
+2. Include the necessary header files.
+3. Declare an integer variable i to use as a loop counter.
+4. Declare an integer array var with 5 elements and initialize it with values [1, 2, 3, 4, 5].
+5. Declare an integer pointer ptr and set it to point to the address of the first element of the array (var[0]).
+6. Start a for loop with the loop variable i from 0 to 4 (inclusive).
+a. Inside the loop, print the value pointed to by ptr using *ptr.
+b. Increment the ptr to point to the next element in the array using ptr++.
+7. End of the loop.
+8. End
